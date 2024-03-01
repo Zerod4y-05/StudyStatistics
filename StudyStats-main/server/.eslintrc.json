@@ -1,0 +1,17 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": ["@stylistic/js"],
+    "rules": {
+        "@stylistic/js/indent": ["error", 4],
+        "@stylistic/js/quotes": ["error", "double"],
+        "@stylistic/js/semi": ["error", "always"]
+    }
+}

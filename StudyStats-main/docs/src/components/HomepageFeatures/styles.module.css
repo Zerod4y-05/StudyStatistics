@@ -1,0 +1,18 @@
+.features {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.featureSvg {
+    height: inherit;
+    width: inherit;
+}
+
+.featuresCenter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 calc(var(--ifm-spacing-horizontal) * -1);
+}
